@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4FDDBA91FE7B7D9008557F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBA81FE7B7D9008557F1 /* UIKit.framework */; };
+		A4FDDBAB1FE7B802008557F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBAA1FE7B802008557F1 /* SystemConfiguration.framework */; };
+		A4FDDBAD1FE7B819008557F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBAC1FE7B819008557F1 /* QuartzCore.framework */; };
+		A4FDDBAF1FE7B823008557F1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBAE1FE7B823008557F1 /* OpenGLES.framework */; };
+		A4FDDBB11FE7B82C008557F1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBB01FE7B82C008557F1 /* MapKit.framework */; };
+		A4FDDBB31FE7B837008557F1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBB21FE7B837008557F1 /* ImageIO.framework */; };
+		A4FDDBB51FE7B83D008557F1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBB41FE7B83D008557F1 /* CoreVideo.framework */; };
+		A4FDDBB71FE7B846008557F1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBB61FE7B846008557F1 /* CoreTelephony.framework */; };
+		A4FDDBB91FE7B84D008557F1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBB81FE7B84D008557F1 /* CoreMedia.framework */; };
+		A4FDDBBB1FE7B855008557F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBBA1FE7B854008557F1 /* CoreLocation.framework */; };
+		A4FDDBBD1FE7B85D008557F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBBC1FE7B85D008557F1 /* CoreGraphics.framework */; };
+		A4FDDBBF1FE7B86E008557F1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBBE1FE7B86E008557F1 /* CoreAudio.framework */; };
+		A4FDDBC11FE7B874008557F1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBC01FE7B874008557F1 /* CFNetwork.framework */; };
+		A4FDDBC31FE7B87B008557F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBC21FE7B87B008557F1 /* AVFoundation.framework */; };
+		A4FDDBC51FE7B883008557F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBC41FE7B883008557F1 /* AudioToolbox.framework */; };
+		A4FDDBC71FE7B88A008557F1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBC61FE7B88A008557F1 /* AssetsLibrary.framework */; };
+		A4FDDBC91FE7B891008557F1 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBC81FE7B891008557F1 /* SafariServices.framework */; };
+		A4FDDBCB1FE7B899008557F1 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FDDBCA1FE7B899008557F1 /* Photos.framework */; };
+		EF631A971CC22A4600AC9715 /* RCTRongCloudIMLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF631A961CC22A4600AC9715 /* RCTRongCloudIMLib.h */; };
+		EF631A991CC22A4600AC9715 /* RCTRongCloudIMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = EF631A981CC22A4600AC9715 /* RCTRongCloudIMLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF631A911CC22A4600AC9715 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EF631A971CC22A4600AC9715 /* RCTRongCloudIMLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4FDDBA81FE7B7D9008557F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4FDDBAA1FE7B802008557F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A4FDDBAC1FE7B819008557F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4FDDBAE1FE7B823008557F1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A4FDDBB01FE7B82C008557F1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A4FDDBB21FE7B837008557F1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A4FDDBB41FE7B83D008557F1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A4FDDBB61FE7B846008557F1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A4FDDBB81FE7B84D008557F1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A4FDDBBA1FE7B854008557F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A4FDDBBC1FE7B85D008557F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4FDDBBE1FE7B86E008557F1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A4FDDBC01FE7B874008557F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A4FDDBC21FE7B87B008557F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4FDDBC41FE7B883008557F1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A4FDDBC61FE7B88A008557F1 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A4FDDBC81FE7B891008557F1 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		A4FDDBCA1FE7B899008557F1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTRongCloudIMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF631A961CC22A4600AC9715 /* RCTRongCloudIMLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTRongCloudIMLib.h; sourceTree = "<group>"; };
+		EF631A981CC22A4600AC9715 /* RCTRongCloudIMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTRongCloudIMLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF631A901CC22A4600AC9715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FDDBCB1FE7B899008557F1 /* Photos.framework in Frameworks */,
+				A4FDDBC91FE7B891008557F1 /* SafariServices.framework in Frameworks */,
+				A4FDDBC71FE7B88A008557F1 /* AssetsLibrary.framework in Frameworks */,
+				A4FDDBC51FE7B883008557F1 /* AudioToolbox.framework in Frameworks */,
+				A4FDDBC31FE7B87B008557F1 /* AVFoundation.framework in Frameworks */,
+				A4FDDBC11FE7B874008557F1 /* CFNetwork.framework in Frameworks */,
+				A4FDDBBF1FE7B86E008557F1 /* CoreAudio.framework in Frameworks */,
+				A4FDDBBD1FE7B85D008557F1 /* CoreGraphics.framework in Frameworks */,
+				A4FDDBBB1FE7B855008557F1 /* CoreLocation.framework in Frameworks */,
+				A4FDDBB91FE7B84D008557F1 /* CoreMedia.framework in Frameworks */,
+				A4FDDBB71FE7B846008557F1 /* CoreTelephony.framework in Frameworks */,
+				A4FDDBB51FE7B83D008557F1 /* CoreVideo.framework in Frameworks */,
+				A4FDDBB31FE7B837008557F1 /* ImageIO.framework in Frameworks */,
+				A4FDDBB11FE7B82C008557F1 /* MapKit.framework in Frameworks */,
+				A4FDDBAF1FE7B823008557F1 /* OpenGLES.framework in Frameworks */,
+				A4FDDBAD1FE7B819008557F1 /* QuartzCore.framework in Frameworks */,
+				A4FDDBAB1FE7B802008557F1 /* SystemConfiguration.framework in Frameworks */,
+				A4FDDBA91FE7B7D9008557F1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D8E84A1F25F53400F73692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDDBCA1FE7B899008557F1 /* Photos.framework */,
+				A4FDDBC81FE7B891008557F1 /* SafariServices.framework */,
+				A4FDDBC61FE7B88A008557F1 /* AssetsLibrary.framework */,
+				A4FDDBC41FE7B883008557F1 /* AudioToolbox.framework */,
+				A4FDDBC21FE7B87B008557F1 /* AVFoundation.framework */,
+				A4FDDBC01FE7B874008557F1 /* CFNetwork.framework */,
+				A4FDDBBE1FE7B86E008557F1 /* CoreAudio.framework */,
+				A4FDDBBC1FE7B85D008557F1 /* CoreGraphics.framework */,
+				A4FDDBBA1FE7B854008557F1 /* CoreLocation.framework */,
+				A4FDDBB81FE7B84D008557F1 /* CoreMedia.framework */,
+				A4FDDBB61FE7B846008557F1 /* CoreTelephony.framework */,
+				A4FDDBB41FE7B83D008557F1 /* CoreVideo.framework */,
+				A4FDDBB21FE7B837008557F1 /* ImageIO.framework */,
+				A4FDDBB01FE7B82C008557F1 /* MapKit.framework */,
+				A4FDDBAE1FE7B823008557F1 /* OpenGLES.framework */,
+				A4FDDBAC1FE7B819008557F1 /* QuartzCore.framework */,
+				A4FDDBAA1FE7B802008557F1 /* SystemConfiguration.framework */,
+				A4FDDBA81FE7B7D9008557F1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF631A8A1CC22A4500AC9715 = {
+			isa = PBXGroup;
+			children = (
+				EF631A951CC22A4600AC9715 /* RCTRongCloudIMLib */,
+				EF631A941CC22A4600AC9715 /* Products */,
+				A4D8E84A1F25F53400F73692 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF631A941CC22A4600AC9715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF631A951CC22A4600AC9715 /* RCTRongCloudIMLib */ = {
+			isa = PBXGroup;
+			children = (
+				EF631A961CC22A4600AC9715 /* RCTRongCloudIMLib.h */,
+				EF631A981CC22A4600AC9715 /* RCTRongCloudIMLib.m */,
+			);
+			path = RCTRongCloudIMLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF631A921CC22A4600AC9715 /* RCTRongCloudIMLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF631A9C1CC22A4600AC9715 /* Build configuration list for PBXNativeTarget "RCTRongCloudIMLib" */;
+			buildPhases = (
+				EF631A8F1CC22A4600AC9715 /* Sources */,
+				EF631A901CC22A4600AC9715 /* Frameworks */,
+				EF631A911CC22A4600AC9715 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTRongCloudIMLib;
+			productName = RCTRongCloudIMLib;
+			productReference = EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF631A8B1CC22A4600AC9715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lovebing.org;
+				TargetAttributes = {
+					EF631A921CC22A4600AC9715 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EF631A8E1CC22A4600AC9715 /* Build configuration list for PBXProject "RCTRongCloudIMLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF631A8A1CC22A4500AC9715;
+			productRefGroup = EF631A941CC22A4600AC9715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF631A921CC22A4600AC9715 /* RCTRongCloudIMLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF631A8F1CC22A4600AC9715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF631A991CC22A4600AC9715 /* RCTRongCloudIMLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF631A9A1CC22A4600AC9715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF631A9B1CC22A4600AC9715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF631A9D1CC22A4600AC9715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF631A9E1CC22A4600AC9715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF631A8E1CC22A4600AC9715 /* Build configuration list for PBXProject "RCTRongCloudIMLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF631A9A1CC22A4600AC9715 /* Debug */,
+				EF631A9B1CC22A4600AC9715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF631A9C1CC22A4600AC9715 /* Build configuration list for PBXNativeTarget "RCTRongCloudIMLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF631A9D1CC22A4600AC9715 /* Debug */,
+				EF631A9E1CC22A4600AC9715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF631A8B1CC22A4600AC9715 /* Project object */;
+}

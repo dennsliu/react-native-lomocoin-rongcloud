@@ -1,0 +1,53 @@
+{
+  "_from": "github:gengqizhi/react-native-lomocoin-rongcloud",
+  "_id": "react-native-lomocoin-rongcloud@1.0.22",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-lomocoin-rongcloud",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-lomocoin-rongcloud@github:gengqizhi/react-native-lomocoin-rongcloud",
+    "name": "react-native-lomocoin-rongcloud",
+    "escapedName": "react-native-lomocoin-rongcloud",
+    "rawSpec": "github:gengqizhi/react-native-lomocoin-rongcloud",
+    "saveSpec": "github:gengqizhi/react-native-lomocoin-rongcloud",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:gengqizhi/react-native-lomocoin-rongcloud#0b8f56d385d1adc2e47da309d53bb2a6caacb75b",
+  "_spec": "react-native-lomocoin-rongcloud@github:gengqizhi/react-native-lomocoin-rongcloud",
+  "_where": "/Users/redseanet/Documents/reatnative-upgrade",
+  "author": {
+    "name": "lomocoin"
+  },
+  "bugs": {
+    "url": "https://github.com/lomocoin/react-native-lomocoin-rongcloud/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "RongCloud For React Native",
+  "homepage": "https://github.com/lomocoin/react-native-lomocoin-rongcloud#readme",
+  "keywords": [
+    "RongCloud",
+    "React Native"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-lomocoin-rongcloud",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lomocoin/react-native-lomocoin-rongcloud.git"
+  },
+  "rnpm": {
+    "packageImportPath": "import com.lomocoin.imlib.RongCloudPackage;"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.22"
+}
