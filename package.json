@@ -1,5 +1,5 @@
 {
-  "_from": "github:gengqizhi/react-native-lomocoin-rongcloud",
+  "_from": "github:dennsliu/react-native-lomocoin-rongcloud",
   "_id": "react-native-lomocoin-rongcloud@1.0.22",
   "_inBundle": false,
   "_integrity": "",
@@ -7,20 +7,20 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "react-native-lomocoin-rongcloud@github:gengqizhi/react-native-lomocoin-rongcloud",
+    "raw": "react-native-lomocoin-rongcloud@github:dennsliu/react-native-lomocoin-rongcloud",
     "name": "react-native-lomocoin-rongcloud",
     "escapedName": "react-native-lomocoin-rongcloud",
-    "rawSpec": "github:gengqizhi/react-native-lomocoin-rongcloud",
-    "saveSpec": "github:gengqizhi/react-native-lomocoin-rongcloud",
+    "rawSpec": "github:dennsliu/react-native-lomocoin-rongcloud",
+    "saveSpec": "github:dennsliu/react-native-lomocoin-rongcloud",
     "fetchSpec": null,
     "gitCommittish": null
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "github:gengqizhi/react-native-lomocoin-rongcloud#0b8f56d385d1adc2e47da309d53bb2a6caacb75b",
-  "_spec": "react-native-lomocoin-rongcloud@github:gengqizhi/react-native-lomocoin-rongcloud",
-  "_where": "/Users/redseanet/Documents/reatnative-upgrade",
+  "_resolved": "github:dennsliu/react-native-lomocoin-rongcloud#c1a1ec20dca2075db4f7ea05638769f49c7ab867",
+  "_spec": "react-native-lomocoin-rongcloud@github:dennsliu/react-native-lomocoin-rongcloud",
+  "_where": "/Users/seahinet/Documents/xiangmu",
   "author": {
     "name": "lomocoin"
   },

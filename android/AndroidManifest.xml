@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lomocoin.imlib">
+          package="com.lomocoin.imlib">
 
-
+    
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -40,33 +40,33 @@
 
         <!-- GCM 配置 < -->
         <!--<receiver-->
-            <!--android:name="com.google.android.gms.gcm.GcmReceiver"-->
-            <!--android:exported="true"-->
-            <!--android:permission="com.google.android.c2dm.permission.SEND">-->
-            <!--<intent-filter>-->
-                <!--&lt;!&ndash; for Gingerbread GSF backward compat &ndash;&gt;-->
-                <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION" />-->
-                <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
+        <!--android:name="com.google.android.gms.gcm.GcmReceiver"-->
+        <!--android:exported="true"-->
+        <!--android:permission="com.google.android.c2dm.permission.SEND">-->
+        <!--<intent-filter>-->
+        <!--&lt;!&ndash; for Gingerbread GSF backward compat &ndash;&gt;-->
+        <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION" />-->
+        <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
 
-                <!--<category android:name="com.lomocoin.lomocoin" />-->
-                <!--&lt;!&ndash; 替换为自己的packagename < &ndash;&gt;-->
-            <!--</intent-filter>-->
+        <!--<category android:name="com.lomocoin.lomocoin" />-->
+        <!--&lt;!&ndash; 替换为自己的packagename < &ndash;&gt;-->
+        <!--</intent-filter>-->
         <!--</receiver>-->
 
 
         <!--<service-->
-            <!--android:name="io.rong.push.platform.RongGcmListenerService"-->
-            <!--android:exported="false">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
-            <!--</intent-filter>-->
+        <!--android:name="io.rong.push.platform.RongGcmListenerService"-->
+        <!--android:exported="false">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
+        <!--</intent-filter>-->
         <!--</service>-->
         <!--<service-->
-            <!--android:name="io.rong.push.platform.RongGCMInstanceIDListenerService"-->
-            <!--android:exported="false">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="com.google.android.gms.iid.InstanceID" />-->
-            <!--</intent-filter>-->
+        <!--android:name="io.rong.push.platform.RongGCMInstanceIDListenerService"-->
+        <!--android:exported="false">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.google.android.gms.iid.InstanceID" />-->
+        <!--</intent-filter>-->
         <!--</service>-->
         <!-- GCM 配置结束 < -->
         <!-- [START firebase_service] -->
@@ -91,46 +91,46 @@
         <!-- imlib config begin -->
 
         <service
-            android:name="io.rong.imlib.ipc.RongService"
-            android:exported="true"
-            android:process=":ipc" />
+                android:name="io.rong.imlib.ipc.RongService"
+                android:exported="true"
+                android:process=":ipc" />
 
         <service
-            android:name="io.rong.imlib.ReConnectService"
-            android:exported="true" />
+                android:name="io.rong.imlib.ReConnectService"
+                android:exported="true" />
 
         <receiver
-            android:name="io.rong.imlib.ConnectChangeReceiver"
-            android:exported="true" />
+                android:name="io.rong.imlib.ConnectChangeReceiver"
+                android:exported="true" />
 
         <receiver
-            android:name="io.rong.imlib.HeartbeatReceiver"
-            android:process=":ipc" />
+                android:name="io.rong.imlib.HeartbeatReceiver"
+                android:process=":ipc" />
         <!-- imlib config end -->
 
 
         <!--必选： SDK 核心功能-->
         <!--第三方相关,向第三方推送服务请求 token 的服务 -->
         <service
-            android:name="io.rong.push.core.PushRegistrationService"
-            android:exported="false"></service>
+                android:name="io.rong.push.core.PushRegistrationService"
+                android:exported="false"></service>
 
         <!-- 处理 push 消息相关的服务 -->
         <service
-            android:name="io.rong.push.core.MessageHandleService"
-            android:exported="true"></service>
+                android:name="io.rong.push.core.MessageHandleService"
+                android:exported="true"></service>
 
         <!-- push服务 -->
         <service
-            android:name="io.rong.push.PushService"
-            android:exported="true"
-            android:process="io.rong.push">  <!-- push进程，可以改名 -->
+                android:name="io.rong.push.PushService"
+                android:exported="true"
+                android:process="io.rong.push">  <!-- push进程，可以改名 -->
         </service>
 
         <!-- push 相关事件接收器 -->
         <receiver
-            android:name="io.rong.push.PushReceiver"
-            android:process="io.rong.push">   <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
+                android:name="io.rong.push.PushReceiver"
+                android:process="io.rong.push">   <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
             <!-- 心跳事件 -->
             <intent-filter>
                 <action android:name="io.rong.push.intent.action.HEART_BEAT" />
