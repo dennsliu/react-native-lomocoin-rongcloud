@@ -402,12 +402,14 @@ public class RongCloudIMLibModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void sendImageMessage(int mType, String targetId, String imageUrl, String pushContent, final Promise promise) {
-
-        imageUrl = ImgCompressUtils.compress(context, imageUrl);
+        //Log.e("image===",imageUrl);
+        //imageUrl = ImgCompressUtils.compress(context, imageUrl);
+        //Log.e("image==========",imageUrl);
+        //imageUrl = imageUrl;
         if (imageUrl.startsWith("content")) {
-            imageUrl = "file://" + BitmapUtils.getRealFilePath(context, Uri.parse(imageUrl));
+            imageUrl = BitmapUtils.getRealFilePath(context, Uri.parse(imageUrl));
         } else {
-            imageUrl = "file://" + imageUrl;
+            imageUrl = imageUrl;
         }
         ConversationType type = formatConversationType(mType);
 
